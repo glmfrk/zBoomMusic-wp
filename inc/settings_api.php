@@ -36,6 +36,7 @@
         <form action="options.php" method="post">
             <?php do_settings_sections( 'setting_slug' );?>
             <?php settings_fields( 'sec_id' ); ?>
+            <?php submit_button(); ?>
         </form>
     <?php
     }
